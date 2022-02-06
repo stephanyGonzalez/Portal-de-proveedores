@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(to right bottom, #5c5c5e, #506472, #33696d, #498d70, #6c8043);
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;   
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    background-color: #76bd1d;
+    border: 2px solid #76bd1d;
+    color: white;
+    font-size: 18px;
+    border-radius: 9px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+
+nav ul{
+    margin-left: 460px;
+    margin-top: -90px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+header #logo{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+form #search{
+    margin-left: 1000px;
+    margin-right: 500px;
+    margin-top: -100px;
+    float: right;
+    border-radius: 5px;
+    background-color:#e4e2e2 ;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    color: #85c833;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+#table {
+    color: rgb(34, 33, 33);
+    background-color:white ;
+    border-radius: 30px;
+    width: 1800px;
+    height: 300px;
+    padding: 30px;
+    font-family: 'Quicksand', sans-serif; 
+    text-align: center;
+}
+
+#tablaFather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulos th{
+    background-color: #474747;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: rgb(31, 30, 30);
+    color: rgb(187, 184, 184);
+    height: 50px;
+    margin-top: 80px;
+    bottom:0px;
+    left:0;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.icon{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 7px;
+    text-align: center;
+}

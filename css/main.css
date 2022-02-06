@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,500");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__navBar {
+  background-color: rgba(100, 100, 99, 0.26);
+  color: white;
+}
+
+.header__logo {
+  width: 280px;
+}
+
+.header__list {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.header__list:hover {
+  background-color: #75bd1d8a;
+  border-radius: 5px;
+  color: white;
+}
+
+.header__boton {
+  background-color: #76bd1d;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .header__hambu {
+    background-color: #75bd1da6;
+    color: white;
+  }
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#5c5c5e), color-stop(#506472), color-stop(#33696d), color-stop(#657045), to(#9e8f39));
+  background-image: linear-gradient(to right bottom, #5c5c5e, #506472, #33696d, #657045, #9e8f39);
+  background-attachment: fixed;
+}
+
+body h1 {
+  color: #85c833;
+  font-family: 'Quicksand', sans-serif;
+}
+
+@media (max-width: 992px) {
+  body h1 {
+    font-size: 2.0rem;
+  }
+}
+
+.table {
+  color: white;
+}
+
+.footer {
+  background-color: #1f1e1e;
+  color: #dfdfdf;
+  height: 70px;
+  bottom: 0px;
+  left: 0;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+}
+
+.footer__item {
+  color: #cea624;
+  font-size: 20px;
+  margin: 12px;
+}
+/*# sourceMappingURL=main.css.map */

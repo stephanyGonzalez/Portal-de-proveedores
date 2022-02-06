@@ -1,0 +1,39 @@
+.header{
+    &__navBar{
+        background-color: rgba(100, 100, 99, 0.26);
+        color: white;
+    }
+
+    &__logo{
+        width:280px
+        
+    }
+
+    &__list{
+        display: block;
+        padding: 0.5rem 1rem;
+        color: white;
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+
+    &__list:hover{
+        background-color:#75bd1d8a;
+        border-radius: 5px;
+        color: white;
+    }
+
+    &__boton{
+        background-color:#76bd1d;
+        color: white;
+    }
+
+    @media (max-width: 992px) {
+        &__hambu{
+            background-color:#75bd1da6;
+            color: white;
+        }
+    } 
+  
+}
+

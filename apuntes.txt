@@ -1,0 +1,11 @@
+BEM: Bloque,Elemento y modificador
+Nesting o anidacion: sintaxis que usa SASS en forma de anidacion
+Import:
+parciales: se crean con un _adelante para no crear un archvio css de mas
+
+
+
+propiedades Css
+/* body{
+    object-fit: cover; //acomoda las imagenes cuando son modificadoas del alto y hancho
+} */

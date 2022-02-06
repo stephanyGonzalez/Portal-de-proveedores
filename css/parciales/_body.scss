@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(to right bottom, #5c5c5e, #506472, #33696d, #657045, #9e8f39);
+    background-attachment: fixed;
+    h1{
+        color: #85c833;
+        font-family: 'Quicksand', sans-serif; 
+        @media (max-width: 992px) {
+            font-size: 2.0rem;
+        } 
+    }   
+}
+.table{
+    color: white; 
+}

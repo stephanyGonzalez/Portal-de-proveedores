@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header> 
+            <div class="container-fluid">
+                <nav class="navbar  navbar-expand-lg  navbar-light header__navBar">
+                    <a  href="../index.html"><img class=" header__logo" src="../image/logo.png" alt="logo_mailamericas"></a>
+                    <button class="navbar-toggler navbar-dark header__hambu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="header__list" aria-current="page" href="../index.html">Upload invoice</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="header__list" href="invoices_loaded.html">Invoices loaded</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="header__list" href="notaDeCredito.html">Credit Note</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn header__boton" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="tabla">
+            <div class="row justify-content-center">
+               <div class="col-3"><h1>Invoices loaded</h1></div> 
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10" data-aos="zoom-in">
+                    <table class="table striped">
+                        <tr>
+                            <th>Nro de factura</th>
+                            <th>Proveedor</th>
+                            <th>punto de venta</th>
+                            <th>Fecha</th>
+                            <th>Monto</th>
+                            <th>Estado de la factura</th>
+                        </tr>
+                        <tr>
+                            <td >5496</td>
+                            <td >CTS</td>
+                            <td>Mailatinamerica SA</td> 
+                            <td>04-11-2021</td>
+                            <td>$500</td> 
+                            <td class="pagada">Pagada</td>
+                        </tr>
+                        <tr>
+                            <td >5497</td>
+                            <td >Beagles</td>
+                            <td>Mailatinamerica SA</td>  
+                            <td>28-10-2020</td>
+                            <td>$2700</td>
+                            <td>Recibida</td>
+                        </tr>
+                        <tr> 
+                            <td >5498</td>
+                            <td >Trans-Am</td>
+                            <td>Mailatinamerica SA</td> 
+                            <td>04-04-2020</td>
+                            <td>$8400</td>
+                            <td>Recibida</td> 
+                        </tr>
+                        <tr>
+                            <td >5497</td>
+                            <td >Beagles</td>
+                            <td>Mailatinamerica SA</td>  
+                            <td>28-10-2020</td>
+                            <td>$8900</td>
+                            <td>Recibida</td>
+                        </tr>
+                        <tr>
+                            <td >5496</td>
+                            <td >CTS</td>
+                            <td>Mailatinamerica SA</td> 
+                            <td>04-11-2021</td>
+                            <td>$500</td> 
+                            <td class="pagada">Pagada</td>
+                        </tr>
+                        <tr> 
+                            <td >5498</td>
+                            <td >Trans-Am</td>
+                            <td>Mailatinamerica SA</td> 
+                            <td>04-04-2020</td>
+                            <td>$8400</td>
+                            <td>Recibida</td> 
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <div class="row">
+            <div class="footer">
+                <a class="footer__item" href="https://mailamericas.com/"><i class="fa fa-facebook-square" aria-hidden="true" class="icon"></i></a>
+                <a class="footer__item" href="https://www.linkedin.com/company/mailamericas-mailatinamerica/mycompany/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a class="footer__item" href="https://mailamericas.com/"><i class="fa fa-bandcamp" aria-hidden="true"></i></a>
+                <p>© 2020 Copyright: mailamericas.com</p>
+            </div>
+        </div> 
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>

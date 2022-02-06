@@ -1,0 +1,17 @@
+@import "./variables";
+.footer{
+    background-color: rgb(31, 30, 30);
+    color: rgb(223, 223, 223);
+    height: 70px;
+    bottom:0px;
+    left:0;
+    text-align: center;
+    padding: 5px;
+    position:fixed;
+    
+    &__item{
+        color: $naranjaMail;
+        font-size: 20px;
+        margin: 12px;
+    }
+}
