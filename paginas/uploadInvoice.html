@@ -10,7 +10,7 @@
     <title>Document</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Create invoice</title>
 
 </head>
@@ -26,13 +26,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="header__list" aria-current="page" href="paginas/uploadInvoice.html">Upload invoice</a>
+                            <a class="header__list" aria-current="page" href="uploadInvoice.html">Upload invoice</a>
                           </li>
                           <li class="nav-item">
-                            <a class="header__list" href="paginas/invoices_loaded.html">Invoices loaded</a>
+                            <a class="header__list" href="invoices_loaded.html">Invoices loaded</a>
                           </li>
                           <li class="nav-item">
-                            <a class="header__list" href="paginas/notaDeCredito.html">Credit Note</a>
+                            <a class="header__list" href="notaDeCredito.html">Credit Note</a>
                           </li>
                         </ul>
                         <form class="d-flex">
@@ -46,8 +46,43 @@
         <div class="row justify-content-md-center mt-5">
             <div class="col-md-6">
                 <main data-aos="zoom-in">
-                    <h1>new login</h1>
-                    
+                    <h1>Create new onvoice</h1>
+                    <div class="formu">
+                        <form action="">
+                            <div>
+                                <select class="form-select mb-2" aria-label="Default select example">
+                                    <option selected>Nombre</option>
+                                    <option value="1">Proveedor 1</option>
+                                    <option value="2">Proveedor 2</option>
+                                    <option value="3">Proveedor 3</option>
+                                </select>
+                            </div>
+                            <div> 
+                                <select class="form-select mb-2
+                                " aria-label="Default select example">
+                                    <option selected>Punto de venta</option>
+                                    <option value="1">Punto de venta 1</option>
+                                    <option value="2">Punto de venta 2</option>
+                                    <option value="3">Punto de venta 3</option>
+                                </select>
+                            </div>
+                            <div>
+                                <input class="form-control mb-2" type="text" placeholder="concepto" aria-label=".form-control-lg example">
+                            </div>
+                            <div  >
+                                <input class="form-control mb-2" type="currency" placeholder="Monto" aria-label=".form-control-lg example">
+                            </div>
+                            <div  >
+                                <input class="form-control mb-2" type="date" placeholder="Fecha de emision" aria-label=".form-control-lg example">
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-control" type="file" id="formFile">
+                            </div>
+                            <div>
+                                <button class="btn btn-dark">Create invoice</button>
+                            </div>
+                        </form>
+                    </div>
                 </main>
             </div>
         </div>
