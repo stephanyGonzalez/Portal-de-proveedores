@@ -23,6 +23,7 @@
 body{
     background-image: linear-gradient(to right bottom, #5c5c5e, #506472, #33696d, #657045, #9e8f39);
     background-attachment: fixed;
+    overflow-x: hidden;
     h1{
         color: #85c833;
         font-family: 'Quicksand', sans-serif; 
