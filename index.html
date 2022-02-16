@@ -14,43 +14,52 @@
     <title>Create invoice</title>
 
 </head>
-<body>
-    <div class="container-fluid" >
-        <header> 
-            <div class="container-fluid">
-                <nav class="navbar  navbar-expand-lg  navbar-light header__navBar">
-                    <a  href="../index.html"><img class=" header__logo" src="../image/logo.png" alt="logo_mailamericas"></a>
-                    <button class="navbar-toggler navbar-dark header__hambu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="header__list" aria-current="page" href="paginas/uploadInvoice.html">Upload invoice</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="header__list" href="paginas/invoices_loaded.html">Invoices loaded</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="header__list" href="paginas/notaDeCredito.html">Credit Note</a>
-                          </li>
-                        </ul>
-                        <form class="d-flex">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn header__boton" type="submit">Search</button>
-                        </form>
+<body class="body-index">
+    <div class="container" >
+        <header class="header__navBar" >
+                <form class="row g-3 mt-2">
+                    <div class="col-md-3">
+                        <a  href="../index.html"><img class="header__logo" src="../image/logo.png" alt="logo_mailamericas"></a>
                     </div>
-                </nav>
-            </div>
-        </header> 
-        <div class="row justify-content-md-center mt-5">
-            <div class="col-md-6">
-                <main data-aos="zoom-in">
-                    <h1>new login</h1>
                     
-                </main>
+                    <div class="col-md-3">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-3">
+                        <button type="submit" class="btn header__boton"> <a class="header__boton" href="paginas/uploadInvoice.html">Sign in</a></button>
+                    </div>
+                </form>
+        </header> 
+
+        <main class="row justify-content-md-center mt-5">
+            <div class="col-md-6 mt-5 body-index__parrafo">
+                <b>MISIÓN</b> 
+                Nuestra misión es proporcionar servicios
+                personalizados, rentables y soluciones logísticas
+                confiables para otras compañías logísticas,
+                plataformas de eCommerce y vendedores de todo el
+                mundo.
             </div>
-        </div>
+            <div class="col-md-6 mt-3 body-index__parrafo">
+                <b>VISIÓN</b>
+                Nuestra visión es ser la empresa logística más
+                relevante de la región.
+                MailAmericas comienza y termina con un paquete.
+                Construimos nuestra empresa basándonos en
+                confianza y resultados. Lo hacemos trabajando con
+                una infraestructura sólida de IT, conocimiento de la
+                región y especificidad.
+                A través de tecnología atractiva y servicios
+                personalizados, fomentamos una comunidad
+                diferente a cualquier otra en el universo del
+                eCommerce.
+            </div>
+        </main>       
         <div class="row">
             <div class="footer">
                 <a class="footer__item" href="https://mailamericas.com/"><i class="fa fa-facebook-square" aria-hidden="true" class="icon"></i></a>
@@ -59,6 +68,7 @@
                 <p>© 2020 Copyright: mailamericas.com</p>
             </div>
         </div> 
+
     </div>    
 </body>
 <script src="index.js"></script>
