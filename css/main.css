@@ -60,9 +60,12 @@
   padding: 10px;
 }
 
-.body-index .header__boton {
-  margin-top: 30px;
+.body-index__boton {
   text-decoration: none;
+  background-color: #85c833;
+  padding: 9px;
+  border-radius: 5px;
+  color: white;
 }
 
 body {
